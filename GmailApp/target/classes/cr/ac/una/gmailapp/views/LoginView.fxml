@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXPasswordField?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" fx:id="root" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="777.0" styleClass="maintenance-app-background" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cr.ac.una.gmailapp.controllers.LoginController">
+   <children>
+      <HBox alignment="CENTER_RIGHT" prefHeight="530.0" prefWidth="802.0" styleClass="login-background-color" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox fx:id="loginHBox" alignment="CENTER" prefHeight="431.0" prefWidth="462.0" spacing="15.0" styleClass="login-center" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fx:id="imgLogo" fitHeight="98.0" fitWidth="156.0" pickOnBounds="true" styleClass="jfx-imagen-logo">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <HBox alignment="CENTER" prefHeight="42.0" prefWidth="368.0" spacing="10.0" styleClass="jfx-hbox-usuario" VBox.vgrow="ALWAYS">
+                     <children>
+                        <ImageView fx:id="imgUsuario" fitHeight="33.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                        <MFXTextField fx:id="txtUsuario" floatMode="ABOVE" floatingText="Usuario" prefHeight="34.0" prefWidth="357.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </MFXTextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="1.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="53.0" prefWidth="442.0" spacing="10.0" styleClass="jfx-hbox-Contrasena" VBox.vgrow="ALWAYS">
+                     <children>
+                        <ImageView fx:id="imgContrasena" fitHeight="32.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                        <MFXPasswordField fx:id="psfClave" floatMode="ABOVE" floatingText="Password" prefHeight="38.0" prefWidth="356.0" HBox.hgrow="ALWAYS">
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </MFXPasswordField>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="42.0" prefWidth="362.0" spacing="85.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Button fx:id="btnIngresar" mnemonicParsing="false" onAction="#onActionBtnIngresar" styleClass="login-button" text="Ingresar" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="50.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="639.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="373.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="119.0" prefWidth="276.0" spacing="10.0" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Hyperlink onAction="#onActionHLinkRecuperarContrasena" text="Olvidaste tu contarsena?" />
+                                    <Hyperlink onAction="#onActionHLinkRegistrarme" text="Registrarme" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets left="50.0" right="50.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets bottom="80.0" left="170.0" right="170.0" top="80.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

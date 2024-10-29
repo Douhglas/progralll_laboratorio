@@ -1,0 +1,82 @@
+
+#father {
+    -fx-background-color: white;
+    -fx-font-family: 'Yu Gothic UI Semibold';
+}
+
+
+#header {
+    -fx-background-color: black;
+
+}
+
+.label{
+
+    -fx-text-fill:#FBFBEE;
+}
+.text-field {
+    -fx-background-color: #FBFBEE;  /* Fondo hueso claro */
+    -fx-text-fill: black;           /* Texto negro */
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-padding: 2px;
+    -fx-font-size: 13px;
+}
+
+
+#contenedor {
+    -fx-background-color: #FBFBEE;
+    -fx-background-radius: 3;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 2;
+    -fx-padding: 10;
+}
+
+
+.button {
+    -fx-background-color: black;
+    -fx-text-fill: #FBFBEE;
+    -fx-font-size: 12px;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+
+.button:hover {
+    -fx-background-color: #333333;
+}
+.table-view {
+    -fx-background-color: #FBFBEE;  /* Fondo hueso claro para la tabla */
+    -fx-border-color: black;
+    -fx-border-width: 1px;    
+    -fx-font-size: 14px;
+}
+
+
+.table-row-cell{
+     -fx-background-color: transparent;
+     -fx-text-fill:transparent
+}
+
+.table-view .column-header-background {
+    -fx-background-color: black;
+    -fx-border-width: 1px;
+    -fx-border-color: transparent transparent #594d22 transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+ 
+.table-row-cell:selected{
+    -fx-background-color: black ;  
+    -fx-text-fill: white;
+    -fx-font-size:15px;
+}
+.table-row-cell:hover{
+    -fx-background-color: grey ;   
+}
+ .table-row-cell:pressed{
+    -fx-background-color: #594d22;   
+} 

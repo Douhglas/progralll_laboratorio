@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXPasswordField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="father" prefHeight="292.0" prefWidth="411.0" stylesheets="@../styles/generalSettings.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cr.ac.una.gmailapp.controllers.GeneralSettingsController">
+   <children>
+      <VBox alignment="CENTER" layoutX="99.0" layoutY="77.0" prefHeight="133.0" prefWidth="232.0" spacing="6.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="77.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="149.0" text="Admin's account" />
+            <TextField fx:id="accountField" alignment="CENTER" maxWidth="-Infinity" prefHeight="25.0" prefWidth="197.0" />
+            <Label prefHeight="17.0" prefWidth="149.0" text="Password" />
+            <MFXPasswordField fx:id="passWordField" prefHeight="38.0" prefWidth="167.0" />
+            <HBox alignment="CENTER" spacing="5.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#infoAction" prefHeight="25.0" prefWidth="48.0" text="info" />
+                  <Button mnemonicParsing="false" onAction="#exitAction" prefHeight="25.0" prefWidth="74.0" text="Guardar" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

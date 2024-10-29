@@ -1,0 +1,43 @@
+#root{
+    -fx-background-color: linear-gradient(to left, black, #003333);
+    -fx-font-family: 'Yu Gothic UI Semibold';
+} 
+#father {
+    -fx-background-color: linear-gradient(to left, black, #003333);
+    -fx-font-family: 'Yu Gothic UI Semibold';
+}
+
+ 
+#header {
+    -fx-background-color: black;
+    
+}
+
+.label{ 
+     -fx-text-fill:white;
+}
+
+
+ 
+#contenedor {
+    -fx-background-color: white; 
+     
+    -fx-border-color: black;  
+    -fx-border-width: 2; 
+  
+    -fx-padding: 10; 
+}
+
+ 
+.button {
+    -fx-background-color: black;
+    -fx-text-fill: white;  
+    -fx-font-size: 13px;  
+    /*-fx-border-radius: 5;*/  
+    -fx-cursor: hand;  
+}
+
+ 
+.button:hover {
+    -fx-background-color: #333333; 
+}

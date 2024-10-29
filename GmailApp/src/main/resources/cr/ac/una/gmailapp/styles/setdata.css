@@ -1,0 +1,113 @@
+  
+#father {
+     -fx-background-color: linear-gradient(to left, black, #003333);
+    -fx-font-family: 'Yu Gothic UI Semibold';
+}
+
+ 
+#header {
+    -fx-background-color: black;
+    
+}
+
+#header > .label{
+     -fx-font-family: 'Yu Gothic UI Semibold';
+     -fx-text-fill: white;
+     -fx-font-size: 16px;
+}
+
+
+.label{
+     -fx-font-family: 'Yu Gothic UI Semibold';
+     -fx-text-fill:Black;
+     -fx-font-size: 13px;
+}
+
+
+ 
+#contenedor {
+    -fx-background-color: white; 
+   
+    -fx-border-color: black;  
+    -fx-border-width: 2; 
+    
+    -fx-padding: 10; 
+}
+
+ 
+.button {
+    -fx-background-color: black;
+    -fx-text-fill: white;  
+    -fx-font-size: 12px;  
+    -fx-border-radius: 5;  
+    -fx-cursor: hand;  
+}
+
+ 
+.button:hover {
+    -fx-background-color: #333333; 
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-color: #ffffff;  
+    -fx-border-color: #000000;       
+    -fx-border-width: 1px;
+     -fx-border-radius:1px;
+}
+
+.spinner .increment-arrow-button:hover,
+.spinner .decrement-arrow-button:hover {
+    -fx-background-color: #dddddd;  
+}
+
+.spinner .increment-arrow,
+.spinner .decrement-arrow {
+    -fx-background-color: transparent;
+    
+}
+
+.spinner .increment-arrow {
+    -fx-background-color: black;
+}
+
+.spinner .decrement-arrow {
+    -fx-background-color: black;
+}
+
+.spinner {
+    -fx-background-color: #f0f0f0;    
+    -fx-border-color: black;          
+    -fx-border-width: 1px;
+    -fx-border-radius:3px;
+}
+.check-box {
+    -fx-background-color: #f0f0f0;   
+    -fx-border-color: black;         
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-text-fill: black;           
+}
+.check-box:selected .mark {
+    -fx-background-color: white;    
+}
+
+.check-box:selected .box {
+    -fx-background-color: black;   
+    -fx-border-color: black;      
+}
+
+.check-box .box {
+    -fx-background-color: #ffffff;  
+    -fx-border-color: black;        
+    -fx-border-width: 2px;
+}
+
+
+#numberField{
+     -fx-background-color: #ffffff;  
+    -fx-border-color: black;        
+    -fx-border-width: 2px;
+    -fx-font-family:'Yu Gothic UI Semibold';
+    -fx-font-size: 13px;
+}

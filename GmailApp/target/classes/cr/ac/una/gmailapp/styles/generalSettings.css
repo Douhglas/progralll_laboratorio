@@ -1,0 +1,64 @@
+  
+#father {
+    -fx-background-color: white;
+    -fx-font-family: 'Yu Gothic UI Semibold';
+      -fx-background-color: #FBFBEE; 
+    -fx-background-radius: 3;
+    -fx-border-color: black;  
+    -fx-border-width: 2; 
+    -fx-border-radius: 2;  
+    -fx-padding: 10; 
+}
+ 
+.label{
+    -fx-font-size: 14;
+      -fx-font-family: 'Yu Gothic UI Semibold';
+     -fx-text-fill:black;
+}
+ 
+ 
+.button {
+    -fx-background-color: black;
+    -fx-text-fill: #FBFBEE;  
+    -fx-font-size: 12px;  
+    -fx-border-radius: 5;  
+    -fx-cursor: hand;  
+}
+
+ 
+.button:hover {
+    -fx-background-color: #333333; 
+}
+.text-field {
+    -fx-background-color: #FBFBEE;  
+    -fx-text-fill: black;            
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-padding: 2px;
+    -fx-font-size: 12px;
+}
+.mfx-password-field {
+    -fx-font-family: 'Yu Gothic UI Semibold';  
+    -fx-font-size: 12px;   
+    -fx-text-fill: black;   
+    -fx-background-color: transparent;
+    -fx-border-color: #B0BEC5;  
+    -fx-border-width: 1px;
+}
+
+ 
+.mfx-password-field:focused {
+    -fx-border-color: #2196F3;   
+    -fx-background-color: transparent;
+    -fx-prompt-text-fill: #90A4AE;  
+} 
+.mfx-password-field .text {
+    -fx-prompt-text-fill: #90A4AE;  
+}
+
+ .mfx-password-field:masked{
+    -fx-font-size: 8.0px;
+}
+.mfx-password-field:masked .floating-text{
+    -fx-font-size: 14.0px;
+}
